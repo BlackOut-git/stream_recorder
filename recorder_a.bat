@@ -10,5 +10,3 @@ streamlink --http-cookie "auth-token={토큰}" "%link%" best -o "{author}_%time%
 rem {토큰}: twitch.tv 로그인 -> F12 -> Application -> Cookies -> auth-token 값 입력
 timeout 10
 goto run
-
-pause
